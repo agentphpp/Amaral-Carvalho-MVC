@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "nome": "StoryTeller ELO",
+    "subtitulo": "Desenvolva criatividade, atenção e raciocínio através de histórias interativas.",
+    "descricao": "Monte imagens incríveis e desenvolva habilidades cognitivas através da narrativa.",
+    "idade": "5-12 anos",
+    "duracao": "10-20 min",
+    "dificuldade": "Médio",
+    "avaliacao": 4.9,
+    "imagem": "../../assets/img/desenho.png",
+    "link": "",
+    "categorias": [
+      "Raciocínio",
+      "Concentração",
+      "Visual"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Matemática do Elo",
+    "subtitulo": "Resolva desafios e desenvolva o pensamento lógico.",
+    "descricao": "Complete desafios matemáticos junto com o Elo.",
+    "link": "https://agentphpp.github.io/ursinhoElo-matematica-game/",
+    "idade": "6-14 anos",
+    "duracao": "5-15 min",
+    "dificuldade": "Fácil",
+    "avaliacao": 4.7,
+    "imagem": "../../assets/img/game2.png",
+    "categorias": [
+      "Lógica",
+      "Observação",
+      "Resolução de Problemas"
+    ]
+  }
+]
