@@ -30,7 +30,7 @@ Importe os dois arquivos **nesta ordem**:
    (Cria o banco `amaral_carvalho` e as tabelas. Atenção: o script apaga e recria o banco.)
 3. Importe depois `BancoDeDados/dados_iniciais.sql`
    (categorias, 2 jogos de exemplo e o administrador).
-   <img width="217" height="40" alt="image" src="https://github.com/user-attachments/assets/96f21fc7-9036-4d28-be81-38f2b3052f99" />
+   <img width="217" height="40" alt="image" src="https://github.com/user-attachments/assets/96f21fc7-9036-4d28-be81-38f2b3052f99" /> <br>
    <img width="262" height="94" alt="image" src="https://github.com/user-attachments/assets/a5de2e8e-1351-4b61-97fe-dc6b3948f452" />
 
 > Se aparecer erro na importação, copie a mensagem completa e envie ao grupo/desenvolvedor.
