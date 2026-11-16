@@ -1,0 +1,72 @@
+/* Painel administrativo (baseado no protótipo do Figma) */
+:root { --adm-azul: #3a75a4; --adm-faixa: #d2e6ef; --adm-cinza: #d9d9d9; --adm-lateral: #87868e; --adm-vermelho: #c0262d; }
+body.adm { background: #fff; display: block; min-height: 100vh; font-family: 'Inter', sans-serif; color: #111; }
+.adm-topo { height: 74px; display: flex; align-items: stretch; justify-content: space-between; border-bottom: 1px solid #000; background: #fff; }
+.adm-logo { width: 82px; border-right: 1px solid #000; display: flex; align-items: center; justify-content: center; }
+.adm-logo img { width: 50px; height: 50px; border-radius: 12px; object-fit: cover; }
+.adm-usuario { margin: 8px 12px; border: 3px solid #000; padding: 4px 28px; text-align: center; min-width: 220px; display: flex; flex-direction: column; justify-content: center; line-height: 1.3; }
+.adm-usuario span { font-size: 1.05rem; border-bottom: 1px solid #ccc; padding-bottom: 2px; }
+.adm-usuario small { font-size: .85rem; }
+.adm-corpo { display: flex; min-height: calc(100vh - 74px); }
+.adm-lateral { width: 275px; flex-shrink: 0; background: var(--adm-lateral); border-right: 1px solid #000; padding: 20px 12px 0; display: flex; flex-direction: column; }
+.adm-menu { display: flex; flex-direction: column; gap: 14px; }
+.adm-item { display: flex; align-items: center; gap: 10px; background: #fff; border: 2px dashed #000; border-radius: 999px; padding: 11px 14px; font-weight: 700; font-size: .95rem; color: #000; text-decoration: none; }
+.adm-item i { width: 26px; text-align: center; font-size: 1.1rem; }
+.adm-item span { flex: 1; text-align: center; margin-right: 26px; }
+.adm-item.ativo { background: var(--adm-azul); }
+.adm-item:hover { color: #000; filter: brightness(.96); }
+.adm-rodape-lateral { margin-top: auto; display: flex; flex-direction: column; gap: 14px; padding-bottom: 0; }
+.adm-logout { background: #fff; border: 1px solid #000; margin: 0 -12px; padding: 38px 20px; display: flex; align-items: center; justify-content: center; gap: 14px; font-weight: 700; font-size: 1.3rem; color: #000; text-decoration: none; }
+.adm-logout:hover { color: var(--adm-vermelho); }
+.adm-principal { flex: 1; min-width: 0; display: flex; flex-direction: column; background: #fff; }
+.adm-faixa { background: var(--adm-faixa); border-bottom: 1px solid #9bb; padding: 8px 14px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; min-height: 150px; }
+.adm-stat { background: var(--adm-cinza); border: 1px solid #555; border-radius: 8px; width: 234px; height: 134px; text-align: center; padding-top: 14px; font-weight: 700; }
+.adm-stat .num { width: 72px; height: 72px; border-radius: 50%; background: #fff; border: 1px solid #555; margin: 10px auto 0; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: var(--adm-vermelho); }
+.adm-acoes { margin-left: auto; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; }
+.adm-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--adm-azul); border: 2px solid #1f2d3a; border-radius: 16px; padding: 14px 16px; font-weight: 700; font-style: italic; color: #000; text-decoration: none; cursor: pointer; font-size: 1rem; }
+.adm-btn i { background: #fff; color: var(--adm-azul); width: 30px; height: 30px; border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; }
+.adm-btn:hover { color: #000; filter: brightness(1.08); }
+.adm-btn.perigo { background: #e2858a; }
+.adm-conteudo { padding: 14px; display: flex; flex-direction: column; gap: 22px; }
+.adm-linha { display: flex; align-items: stretch; background: var(--adm-cinza); border: 2px solid #000; border-radius: 40px; overflow: hidden; min-height: 96px; }
+.adm-linha > div { display: flex; align-items: center; padding: 10px 18px; }
+.adm-linha .avatar { width: 66px; height: 66px; border-radius: 18px; border: 1px solid #000; object-fit: cover; background: #eee; }
+.adm-linha .nome { font-weight: 700; flex: 2; }
+.adm-linha .campo { flex: 1; font-weight: 700; font-style: italic; justify-content: center; text-align: center; }
+.adm-linha .engrenagem { border-left: 1px solid #000; width: 106px; justify-content: center; gap: 12px; font-size: 1.5rem; }
+.adm-linha .engrenagem a, .adm-linha .engrenagem button { color: #000; background: none; border: 0; padding: 0; cursor: pointer; font-size: 1.4rem; }
+.adm-linha .engrenagem a:hover { color: var(--adm-azul); }
+.adm-linha .engrenagem button:hover { color: var(--adm-vermelho); }
+.adm-jogo { display: grid; grid-template-columns: 220px 1fr 1fr 106px; border: 2px solid #000; border-radius: 40px; overflow: hidden; background: var(--adm-cinza); }
+.adm-jogo .capa { grid-row: 1 / 3; padding: 14px; display: flex; align-items: center; justify-content: center; border-right: 1px solid #000; }
+.adm-jogo .capa img { width: 190px; height: 150px; object-fit: cover; border-radius: 22px; }
+.adm-jogo .cel { display: flex; align-items: center; justify-content: center; font-weight: 700; font-style: italic; padding: 20px; border-bottom: 1px solid #000; border-right: 1px solid #000; text-align: center; }
+.adm-jogo .cel:nth-child(n+4) { border-bottom: 0; }
+.adm-jogo .engrenagem { grid-row: 1 / 3; grid-column: 4; display: flex; align-items: center; justify-content: center; gap: 12px; flex-direction: column; }
+.adm-jogo .engrenagem a, .adm-jogo .engrenagem button { color: #000; background: none; border: 0; font-size: 1.4rem; cursor: pointer; }
+.adm-comentario { background: var(--adm-cinza); border: 2px solid #000; border-radius: 60px; padding: 24px 40px; }
+.adm-comentario .topo { display: flex; align-items: center; gap: 16px; font-weight: 700; flex-wrap: wrap; }
+.adm-comentario .topo .avatar { width: 84px; height: 84px; border-radius: 22px; border: 1px solid #000; object-fit: cover; background: #eee; }
+.adm-comentario .topo .usuario { flex: 1; min-width: 120px; }
+.adm-comentario .descritivo { margin-top: 14px; border: 1px dotted #555; border-radius: 24px; padding: 22px 26px; font-weight: 600; min-height: 90px; white-space: pre-line; }
+.adm-vazio { text-align: center; color: #555; padding: 40px 10px; font-weight: 600; }
+.adm-form { background: var(--adm-cinza); border: 2px solid #000; border-radius: 28px; padding: 28px; max-width: 880px; }
+.adm-form label { font-weight: 700; margin-bottom: 4px; }
+.adm-form .form-control, .adm-form .form-select { border-radius: 12px; border: 1px solid #555; }
+.adm-form .erro-campo { color: #b91c1c; font-size: .85rem; margin-top: 4px; }
+.adm-aviso { margin: 14px 14px 0; }
+.adm-filtro { background: #fff; border: 2px solid #1f2d3a; border-radius: 16px; padding: 8px 12px; font-weight: 600; }
+@media (max-width: 900px) {
+  .adm-corpo { flex-direction: column; }
+  .adm-lateral { width: 100%; padding-bottom: 12px; }
+  .adm-menu { flex-direction: row; flex-wrap: wrap; }
+  .adm-item { flex: 1 1 140px; }
+  .adm-rodape-lateral { flex-direction: row; margin-top: 12px; }
+  .adm-logout { padding: 12px; margin: 0; flex: 1; font-size: 1rem; }
+  .adm-jogo { grid-template-columns: 1fr; border-radius: 24px; }
+  .adm-jogo .capa, .adm-jogo .engrenagem { grid-row: auto; grid-column: auto; border: 0; }
+  .adm-jogo .cel { border-right: 0; }
+  .adm-linha { flex-wrap: wrap; border-radius: 24px; }
+  .adm-comentario { border-radius: 28px; padding: 18px; }
+  .adm-acoes { margin-left: 0; }
+}
