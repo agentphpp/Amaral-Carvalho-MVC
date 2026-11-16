@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #F8FAFC;
-    color: #22153C;
+    background-color: #FAF7EF;
+    color: #123653;
     overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@ header {
 
 .nav-links li a {
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 600;
     font-size: 16px;
     transition: color 0.2s ease;
@@ -47,11 +47,11 @@ header {
 
 .nav-links li a:hover,
 .nav-links li a.active {
-    color: #5B21B6;
+    color: #1675B9;
 }
 
 .texto {
-    color: #5B21B6;
+    color: #1675B9;
 }
 
 .btn-entrar {
@@ -59,21 +59,21 @@ header {
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 700;
     font-size: 16px;
     transition: transform 0.2s ease;
 }
 
 .btn-entrar:hover {
-    color: #5B21B6;
+    color: #1675B9;
     transform: translateY(-1px);
 }
 
 /* --- BADGES / TAGS --- */
 .badge-tag {
     background-color: rgba(251, 191, 36, 0.2);
-    color: #FBBF24;
+    color: #D5A943;
     padding: 8px 16px;
     border-radius: 13px;
     font-weight: 600;
@@ -82,8 +82,8 @@ header {
 }
 
 .badge-tag-dark {
-    background-color: #E2E8F0;
-    color: #22153C;
+    background-color: #EAF4F8;
+    color: #123653;
     padding: 8px 20px;
     border-radius: 12px;
     font-weight: 600;
@@ -93,7 +93,7 @@ header {
 
 /* --- HERO --- */
 .apresentacao {
-    background-color: #1a0b36;
+    background-color: #123653;
     background-image: url('../img/testesBanner/blurry.jpg');
     background-size: cover;
     position: relative;
@@ -110,7 +110,7 @@ header {
 }
 
 .highlight-yellow {
-    color: #FACC15;
+    color: #D5A943;
     font-weight: 600;
 }
 
@@ -122,8 +122,8 @@ header {
 
 /* --- BOTÕES CUSTOMIZADOS HERO --- */
 .btn-warning-custom {
-    background-color: #FBBF24;
-    color: #22153C;
+    background-color: #D5A943;
+    color: #123653;
     font-weight: 700;
     padding: 14px 32px;
     border-radius: 12px;
@@ -133,7 +133,7 @@ header {
 }
 
 .btn-warning-custom:hover {
-    background-color: #F59E0B;
+    background-color: #B98A2E;
     box-shadow: 0 8px 28px rgba(251, 191, 36, 0.45);
 }
 
@@ -149,23 +149,23 @@ header {
 
 .btn-outline-light-custom:hover {
     background-color: #FFFFFF;
-    color: #1a0b36;
+    color: #123653;
 }
 
 /* --- PROPOSTA DO PROJETO --- */
 .section-light {
-    background-color: #F1F5F9;
+    background-color: #FAF7EF;
 }
 
 .section-title {
-    color: #4C1D95;
+    color: #123653;
     font-size: 2rem;
     max-width: 500px;
     margin: 0 auto;
 }
 
 .card-proposta {
-    background-color: #E2E8F0 !important;
+    background-color: #EAF4F8 !important;
     border-radius: 16px !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -177,7 +177,7 @@ header {
 
 .card-proposta .icon-box {
     font-size: 2rem;
-    color: #22153C;
+    color: #123653;
 }
 
 /* --- QUEM SOMOS --- */
@@ -186,7 +186,7 @@ header {
 }
 
 .card-hospital-featured {
-    background: linear-gradient(180deg, #4C1D95 0%, #2E1065 100%);
+    background: linear-gradient(180deg, #123653 0%, #123653 100%);
     min-height: 280px;
     display: flex;
     flex-direction: column;
@@ -196,7 +196,7 @@ header {
 .hospital-icon-circle {
     width: 60px;
     height: 60px;
-    background-color: #ECE9FE;
+    background-color: #FAF7EF;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -205,11 +205,11 @@ header {
 }
 
 .text-purple {
-    color: #4C1D95;
+    color: #123653;
 }
 
 .title-purple-dark {
-    color: #4C1D95;
+    color: #123653;
     font-size: 1.8rem;
 }
 
@@ -220,12 +220,12 @@ header {
 
 /* --- JOGOS EM DESTAQUE --- */
 .border-top-divider {
-    border-top: 1px solid #E2E8F0;
+    border-top: 1px solid #EAF4F8;
 }
 
 .btn-outline-purple-action {
-    border: 2px solid #4C1D95;
-    color: #4C1D95;
+    border: 2px solid #123653;
+    color: #123653;
     font-weight: 700;
     border-radius: 20px;
     padding: 8px 20px;
@@ -233,7 +233,7 @@ header {
 }
 
 .btn-outline-purple-action:hover {
-    background-color: #4C1D95;
+    background-color: #123653;
     color: #FFFFFF;
 }
 
@@ -246,7 +246,7 @@ header {
 }
 
 .card-list .card-item {
-    color: #22153C;
+    color: #123653;
     user-select: none;
     max-width: 400px;
     padding: 24px;
@@ -256,7 +256,7 @@ header {
     justify-content: center;
     border-radius: 24px;
     background: linear-gradient(180deg, #ffffff 0%, #f3efff 100%);
-    border: 1px solid #e5defa;
+    border: 1px solid #D7E8EF;
     box-shadow: 0 12px 24px rgba(33, 19, 61, 0.10);
     text-align: center;
 }
@@ -278,7 +278,7 @@ header {
 }
 
 .jogos-destaque .placeholder-bg {
-    background: linear-gradient(135deg, #2E1065 0%, #5B21B6 100%);
+    background: linear-gradient(135deg, #123653 0%, #1675B9 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +302,7 @@ header {
 
 .card-list .card-item .card-title-slider {
     font-size: 1.05rem;
-    color: #22153C;
+    color: #123653;
     margin: 14px 0 8px;
 }
 
@@ -320,7 +320,7 @@ header {
     border-radius: 999px;
     font-weight: 600;
     cursor: pointer;
-    background: linear-gradient(135deg, #5B21B6 0%, #7C3AED 100%);
+    background: linear-gradient(135deg, #1675B9 0%, #1675B9 100%);
     border: 1px solid transparent;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
@@ -333,7 +333,7 @@ header {
 }
 
 .swiper .swiper-pagination-bullet {
-    background: #5B21B6;
+    background: #1675B9;
     height: 10px;
     width: 10px;
 }
@@ -345,7 +345,7 @@ header {
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: #5B21B6;
+    color: #1675B9;
     width: 42px;
     height: 42px;
     border-radius: 999px;
@@ -376,10 +376,10 @@ header {
 
 /* --- RODAPÉ --- */
 footer {
-    background: linear-gradient(180deg, rgba(56, 23, 107, 0.95) 0%, #2E1065 100%);
+    background: linear-gradient(180deg, rgba(56, 23, 107, 0.95) 0%, #123653 100%);
     border-top: 1px solid rgba(236, 233, 254, 0.12);
     margin-top: 80px;
-    color: #ECE9FE;
+    color: #FAF7EF;
 }
 
 .footer-grid {
@@ -416,7 +416,7 @@ footer {
 
 .footer-links a,
 .footer-contato a {
-    color: #ECE9FE;
+    color: #FAF7EF;
     text-decoration: none;
     opacity: 0.85;
     transition: transform 0.25s ease, opacity 0.25s ease, color 0.25s ease;
@@ -461,11 +461,171 @@ footer {
 .down-footer {
     width: 100%;
     padding: 20px 0;
-    background-color: #1a0b36;
+    background-color: #123653;
 }
 
 .footer-bottom p {
     font-size: 0.82rem;
     opacity: 0.7;
     margin: 0;
+}
+
+
+/* ===== RODAPÉ - ORGANIZAÇÃO ===== */
+
+.site-footer .footer-container {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: 30px;
+}
+
+.site-footer .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: start;
+    gap: 35px;
+    width: 100%;
+}
+
+.site-footer .footer-brand,
+.site-footer .footer-links,
+.site-footer .footer-contato {
+    min-width: 0;
+}
+
+.site-footer .footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-footer .footer-links,
+.site-footer .footer-contato {
+    padding-top: 5px;
+}
+
+.site-footer .footer-logo-hospital {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.site-footer .footer-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    width: fit-content;
+    max-width: 100%;
+    padding: 11px 14px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.site-footer .footer-icons a {
+    color: #B9DCEB;
+    font-size: 19px;
+    transition: color .2s ease;
+}
+
+.site-footer .footer-icons a:hover {
+    color: #D5A943;
+}
+
+.site-footer .footer-links a {
+    color: #B9DCEB;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.site-footer .footer-links a:hover {
+    color: #D5A943;
+}
+
+.site-footer .footer-links h2,
+.site-footer .footer-contato h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+/* Tablet e celular */
+@media (max-width: 767px) {
+    .site-footer .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 20px;
+    }
+
+    .site-footer .footer-brand {
+        grid-column: 1 / -1;
+    }
+
+    .site-footer .footer-logo-hospital {
+        width: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-footer .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .site-footer .footer-brand {
+        grid-column: auto;
+    }
+
+    .site-footer .footer-container {
+        padding-inline: 24px;
+    }
+}
+
+
+/* Centralização real do conteúdo do rodapé */
+.site-footer .footer-grid {
+    display: grid;
+    grid-template-columns: 250px 150px 150px;
+
+    width: min(100%, 767px);
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    align-items: start;
+
+    column-gap: 65px;
+}
+
+/* Evita que os elementos internos ultrapassem as colunas */
+.site-footer .footer-brand,
+.site-footer .footer-links,
+.site-footer .footer-contato {
+    width: 100%;
+    min-width: 0;
+
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+    .site-footer .footer-grid {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 20px;
+    }
+
+    .site-footer .footer-brand {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-footer .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .site-footer .footer-brand {
+        grid-column: auto;
+    }
 }

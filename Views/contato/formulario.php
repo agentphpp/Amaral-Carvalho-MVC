@@ -1,5 +1,5 @@
 <?php
-    $titulo = "Contato"; $pagina = "contato"; $css = array("styleContato.css");
+    $titulo = "Contato"; $pagina = "contato"; $css = array("styleContato.css"); $bodyClass = "contato-body";
     require "Views/layout/cabecalho.php";
 ?>
 <main>

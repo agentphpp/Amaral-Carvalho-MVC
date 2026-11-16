@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: #ECE9FE;
+    background-color: #FAF7EF;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #22153C;
+    color: #123653;
 }
 
 /* --- NAVBAR --- */
@@ -35,7 +35,7 @@ header {
 
 .nav-links li a {
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 600;
     font-size: 16px;
     transition: color 0.2s ease;
@@ -44,7 +44,7 @@ header {
 
 .nav-links li a:hover,
 .nav-links li a.active {
-    color: #5B21B6;
+    color: #1675B9;
 }
 
 .btn-entrar {
@@ -52,14 +52,14 @@ header {
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 700;
     font-size: 16px;
     transition: transform 0.2s ease;
 }
 
 .btn-entrar:hover {
-    color: #5B21B6;
+    color: #1675B9;
     transform: translateY(-1px);
 }
 
@@ -80,7 +80,7 @@ main {
     padding: 30px;
     width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    color: #22153C;
+    color: #123653;
 }
 
 .card-title {
@@ -88,7 +88,7 @@ main {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 25px;
-    color: #4C1D95;
+    color: #123653;
 }
 
 .conteudo-flex {
@@ -148,7 +148,7 @@ main {
     gap: 18px;
     padding: 18px;
     margin-bottom: 18px;
-    background: linear-gradient(135deg, #efe8ff 0%, #e2d6ff 100%);
+    background: linear-gradient(135deg, #FAF7EF 0%, #B9DCEB 100%);
     border-radius: 16px;
     box-shadow: 0 6px 16px rgba(33, 19, 61, 0.08);
 }
@@ -170,7 +170,7 @@ main {
 
 .equipe-text h2 {
     margin-bottom: 6px;
-    color: #22153C;
+    color: #123653;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -205,12 +205,12 @@ main {
 
 /* --- FOOTER --- */
 footer {
-    background: linear-gradient(180deg, rgba(56, 23, 107, 0.9) 0%, #2E1065 100%);
+    background: linear-gradient(180deg, rgba(56, 23, 107, 0.9) 0%, #123653 100%);
     border-top: 1px solid rgba(236, 233, 254, 0.1);
 }
 
 .footer-title {
     font-size: 12px;
     font-weight: 400;
-    color: #ECE9FE;
+    color: #FAF7EF;
 }

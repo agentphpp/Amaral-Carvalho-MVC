@@ -1,31 +1,40 @@
-// assets/js/carrousel.js
+// Carrossel de jogos em destaque da página inicial.
 document.addEventListener("DOMContentLoaded", () => {
+    const carousel = document.querySelector(".jogos-destaque-carousel");
+    if (!carousel) return;
+
     if (typeof Swiper === "undefined") {
-        console.warn("Swiper não carregado — carrossel desabilitado.");
+        console.warn("Swiper não carregado — carrossel de jogos indisponível.");
         return;
     }
 
-    const el = document.querySelector(".swiper");
-    if (!el) return;
+    const swiperElement = carousel.querySelector(".jogos-swiper");
+    const nextButton = carousel.querySelector(".swiper-button-next");
+    const prevButton = carousel.querySelector(".swiper-button-prev");
+    const pagination = carousel.querySelector(".swiper-pagination");
 
-    new Swiper(".swiper", {
-        loop: false,
+    if (!swiperElement) return;
+
+    new Swiper(swiperElement, {
+        slidesPerView: 1,
+        spaceBetween: 16,
+        speed: 450,
         grabCursor: true,
-        spaceBetween: 30,
         watchOverflow: true,
+        observer: true,
+        observeParents: true,
         pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            dynamicBullets: true
+            el: pagination,
+            clickable: true
         },
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
+            nextEl: nextButton,
+            prevEl: prevButton
         },
         breakpoints: {
-            0:    { slidesPerView: 1, spaceBetween: 20 },
-            640:  { slidesPerView: 2, spaceBetween: 24 },
-            1024: { slidesPerView: 3, spaceBetween: 30 }
+            576: { slidesPerView: 2, spaceBetween: 18 },
+            900: { slidesPerView: 3, spaceBetween: 22 },
+            1200: { slidesPerView: 3, spaceBetween: 24 }
         }
     });
 });

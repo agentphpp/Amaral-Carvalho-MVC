@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: #ECE9FE;
+    background-color: #FAF7EF;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #22153C;
+    color: #123653;
 }
 
 /* --- NAVBAR --- */
@@ -35,7 +35,7 @@ header {
 
 .nav-links li a {
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 600;
     font-size: 16px;
     transition: color 0.2s ease;
@@ -44,7 +44,7 @@ header {
 
 .nav-links li a:hover,
 .nav-links li a.active {
-    color: #5B21B6;
+    color: #1675B9;
 }
 
 .btn-entrar {
@@ -52,14 +52,14 @@ header {
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 700;
     font-size: 16px;
     transition: transform 0.2s ease;
 }
 
 .btn-entrar:hover {
-    color: #5B21B6;
+    color: #1675B9;
     transform: translateY(-1px);
 }
 
@@ -81,7 +81,7 @@ header {
 }
 
 .filter-btn {
-    background-color: #5314B2;
+    background-color: #1675B9;
     border: none;
     color: white;
     width: 50px;
@@ -135,12 +135,12 @@ header {
     cursor: pointer;
     transition: background-color 0.2s;
     padding: 0 15px;
-    color: #22153C;
+    color: #123653;
 }
 
 .tag:hover,
 .tag.active-tag {
-    background-color: #5B21B6;
+    background-color: #1675B9;
     color: #FFFFFF;
 }
 
@@ -162,7 +162,7 @@ header {
 }
 
 .game-card {
-    background-color: #EBF0FF;
+    background-color: #EAF4F8;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -183,7 +183,7 @@ header {
 }
 
 .placeholder-bg {
-    background-color: #2E1065;
+    background-color: #123653;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +220,7 @@ header {
 .card-content {
     padding: 20px;
     flex-grow: 1;
-    color: #22153C;
+    color: #123653;
 }
 
 .game-time {
@@ -251,7 +251,7 @@ header {
 }
 
 .description-box {
-    background-color: #1A1230;
+    background-color: #123653;
     color: white;
     width: 100%;
     padding: 40px;
@@ -268,20 +268,86 @@ header {
 
 /* --- FOOTER --- */
 footer {
-    background: linear-gradient(180deg, rgba(56, 23, 107, 0.9) 0%, #2E1065 100%);
+    background: linear-gradient(180deg, rgba(56, 23, 107, 0.9) 0%, #123653 100%);
     border-top: 1px solid rgba(236, 233, 254, 0.1);
-    color: #ECE9FE;
+    color: #FAF7EF;
 }
 
 .footer-title {
     font-size: 12px;
     font-weight: 400;
-    color: #ECE9FE;
+    color: #FAF7EF;
 }
 
 @media (max-width: 576px) {
     .tags-row {
         padding-left: 0;
         flex-wrap: wrap;
+    }
+}
+
+
+/* FILTROS */
+
+
+/* Botão de abrir e fechar os filtros */
+.filters-toggle-row {
+    padding-left: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.filters-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 12px;
+
+    background: transparent;
+    border: 1px solid #d7e8ef;
+    border-radius: 8px;
+
+    color: #123653;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.filters-toggle:hover {
+    background: #eaf4f8;
+    border-color: #1675B9;
+    color: #1675B9;
+}
+
+.filters-toggle > i:first-child {
+    color: #1675B9;
+}
+
+.filtro-chevron {
+    font-size: 10px;
+    transition: transform .2s ease;
+}
+
+/* Categorias escondidas inicialmente */
+.tags-row {
+    display: none;
+    gap: 10px;
+    padding-left: 65px;
+    flex-wrap: wrap;
+    animation: fadeIn .2s ease;
+}
+
+/* Categorias abertas */
+.tags-row.open {
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    .filters-toggle-row,
+    .tags-row {
+        padding-left: 0;
     }
 }

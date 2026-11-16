@@ -22,11 +22,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<?php if(($pagina ?? "") === "inicio"): ?>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.css">
+<?php endif; ?>
 <?php foreach($css as $arquivo): ?>
     <link rel="stylesheet" href="assets/css/<?= e($arquivo) ?>">
 <?php endforeach; ?>
     <link rel="stylesheet" href="assets/css/stylePrincipal.css">
     <link rel="stylesheet" href="assets/css/styleExtra.css">
+    <link rel="stylesheet" href="assets/css/styleIdentidade.css">
 </head>
 <body class="<?= e($bodyClass) ?>">
 <?php require "Views/layout/menu.php"; ?>

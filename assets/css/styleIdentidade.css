@@ -1,0 +1,340 @@
+:root {
+    --cor-marinho: #123653;
+    --cor-elo: #1675B9;
+    --cor-azul-claro: #B9DCEB;
+    --cor-marrom: #5A382B;
+    --cor-dourado: #D5A943;
+    --cor-creme: #FAF7EF;
+    --cor-branco: #FFFFFF;
+    --sombra-suave: 0 5px 16px rgba(18, 54, 83, .08);
+}
+html, body { background: var(--cor-creme); color: var(--cor-marinho); }
+body { font-family: 'Inter', sans-serif; }
+.site-header { min-height: 74px; background: var(--cor-creme) !important; border-bottom: 1px solid rgba(18,54,83,.09); box-shadow: 0 2px 10px rgba(18,54,83,.05); }
+.site-header .navbar-container { min-height: 74px; gap: 20px; }
+.logo-placeholder { padding: 0; margin: 0; }
+.logo-hospital { display: block; width: 270px; max-width: 28vw; height: auto; object-fit: contain; }
+.nav-links { gap: clamp(16px, 3vw, 36px); }
+.nav-links li a { color: var(--cor-marinho); font-weight: 600; }
+.nav-links li a:hover, .nav-links li a.active { color: var(--cor-marinho); }
+.nav-links li a.active { position: relative; }
+.nav-links li a.active::after { content: ''; position: absolute; left: 0; right: 0; bottom: -9px; height: 3px; border-radius: 4px; background: var(--cor-dourado); }
+.btn-entrar { background: var(--cor-dourado); color: var(--cor-marinho); border-radius: 999px; padding: 10px 22px; font-size: .94rem; font-weight: 700; white-space: nowrap; }
+.btn-entrar:hover { color: var(--cor-marinho); background: #e2bb62; transform: none; }
+.badge-tag { background: var(--cor-dourado); color: #172d3e; border-radius: 999px; }
+.badge-tag-dark { background: var(--cor-azul-claro); color: var(--cor-marinho); border-radius: 999px; }
+.apresentacao.hero-inicio { background: var(--cor-marinho); padding: 48px 0 54px; min-height: 0; }
+.hero-inicio .container { max-width: 1200px; }
+.hero-inicio .content-hero h1 { color: #fff; font-size: clamp(2.1rem, 4vw, 3.25rem); line-height: 1.12; letter-spacing: -.8px; max-width: 650px; }
+.hero-inicio .content-hero p { max-width: 560px; color: #e1edf4; font-size: 1.1rem; line-height: 1.55; margin: 18px 0 0; }
+.hero-inicio .highlight-yellow { color: var(--cor-dourado); }
+.hero-elo-wrap { display: flex; align-items: center; justify-content: center; }
+.hero-elo { width: min(100%, 360px); max-height: 320px; object-fit: contain; border-radius: 0; box-shadow: none; }
+.btn-warning-custom { background: var(--cor-dourado); color: #172d3e; border-radius: 999px; padding: 12px 25px; box-shadow: none; }
+.btn-warning-custom:hover { background: #e4bb5b; color: #172d3e; box-shadow: none; }
+.btn-outline-light-custom { border: 1px solid rgba(255,255,255,.8); border-radius: 999px; padding: 12px 25px; background: transparent; }
+.btn-outline-light-custom:hover { background: #fff; color: var(--cor-marinho); }
+.section-light, .section-ultra-light { background: var(--cor-creme); }
+.proposta-inicio { padding-top: 38px !important; }
+.section-title, .title-purple-dark, .text-purple { color: var(--cor-marinho) !important; }
+.section-title { max-width: none; font-size: clamp(1.55rem, 2.5vw, 2rem); }
+.proposta-inicio .section-title::after { content: ''; display: block; width: 64px; height: 3px; background: var(--cor-dourado); margin: 12px auto 0; border-radius: 4px; }
+.card-proposta { background: #fff !important; border: 1px solid #c9e0e9; border-radius: 15px !important; box-shadow: var(--sombra-suave); transition: border-color .2s ease, box-shadow .2s ease; }
+.card-proposta:hover { transform: none; border-color: var(--cor-azul-claro); box-shadow: 0 7px 18px rgba(18,54,83,.11) !important; }
+.card-proposta .icon-box { color: var(--cor-elo); font-size: 2rem; }
+.texto { color: var(--cor-elo); font-weight: 600; }
+.card-hospital-featured { background: var(--cor-marinho); }
+.hospital-foto { width: 100%; max-height: 180px; object-fit: cover; border-radius: 10px; }
+.text-description { color: #344e61; }
+.text-description p { line-height: 1.65; }
+.btn-outline-purple-action { border: 1px solid var(--cor-marinho); color: var(--cor-marinho); border-radius: 999px; padding: 8px 18px; }
+.btn-outline-purple-action:hover { background: var(--cor-marinho); color: #fff; }
+.border-top-divider { border-color: #dce8ed !important; }
+.card-list .card-item { background: #fff; color: var(--cor-marinho); border: 1px solid #d7e8ef; border-radius: 16px; box-shadow: var(--sombra-suave); }
+.jogos-destaque .placeholder-bg { background: #e7f1f5; }
+.jogos-destaque .card-image-area { border-radius: 12px; }
+.jogos-destaque .card-image-area .capa { width: 100%; height: 100%; object-fit: cover; }
+.card-list .card-item .card-title-slider { color: var(--cor-marinho); }
+.card-list .card-item .message-button { background: var(--cor-elo); border-radius: 999px; box-shadow: none; }
+.card-list .card-item .message-button:hover { background: var(--cor-marinho); box-shadow: none; transform: none; }
+.swiper .swiper-pagination-bullet, .swiper-button-prev, .swiper-button-next { color: var(--cor-elo); }
+.swiper .swiper-pagination-bullet { background: var(--cor-elo); }
+.site-footer { background: var(--cor-marinho); border-top: 0; }
+.site-footer .footer-logo-hospital { width: min(270px, 100%); max-height: 62px; object-fit: contain; object-position: left center; }
+.site-footer .footer-brand p { color: #dce8ed; font-size: .9rem; }
+.site-footer h2 { color: #fff; font-weight: 700; }
+.site-footer a { color: #e4edf2; text-decoration: none; }
+.site-footer a:hover { color: var(--cor-dourado); }
+.site-footer .down-footer { border-top: 1px solid rgba(255,255,255,.16); background: #0d2b43; }
+.modal-content { border: 1px solid #d7e8ef; border-radius: 14px; }
+.modal-header { border-bottom-color: #e4edf2; }
+.modal-title { color: var(--cor-marinho); font-weight: 700; }
+.form-control:focus, .form-select:focus { border-color: var(--cor-elo); box-shadow: 0 0 0 .2rem rgba(22,117,185,.14); }
+.btn-primary { background: var(--cor-elo); border-color: var(--cor-elo); }
+.btn-primary:hover { background: var(--cor-marinho); border-color: var(--cor-marinho); }
+@media (max-width: 767.98px) {
+    .site-header .navbar-container { flex-wrap: wrap; justify-content: space-between; padding-top: 10px; padding-bottom: 10px; }
+    .logo-hospital { width: 205px; max-width: 54vw; }
+    .menu-principal { order: 3; width: 100%; justify-content: center; margin: 6px 0 0 !important; }
+    .nav-links { gap: 18px; flex-wrap: wrap; justify-content: center; }
+    .nav-links li a { font-size: .9rem; }
+    .nav-links li a.active::after { bottom: -5px; }
+    .btn-entrar { padding: 8px 14px; font-size: .85rem; }
+    .apresentacao.hero-inicio { padding: 38px 0; }
+    .hero-inicio .content-hero h1 { font-size: 2.15rem; }
+    .hero-elo { width: min(70%, 260px); max-height: 240px; }
+    .site-footer .footer-logo-hospital { width: 230px; }
+}
+.hero-elo { width: min(100%, 300px); height: 300px; object-fit: cover; object-position: center 38%; border-radius: 14px; }
+@media (max-width: 767.98px) { .hero-elo { width: min(72%, 245px); height: 245px; } }
+
+/* Carrossel de jogos em destaque: estilos específicos para o Swiper. */
+.jogos-destaque-carousel {
+    position: relative;
+    padding: 0 46px;
+}
+
+.jogos-destaque-carousel .jogos-swiper {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto 38px;
+    padding: 4px 2px 38px;
+    overflow: hidden;
+}
+
+.jogos-destaque-carousel .swiper-wrapper {
+    align-items: stretch;
+}
+
+.jogos-destaque-carousel .swiper-slide.card-item {
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    height: auto;
+    padding: 14px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.jogos-destaque-carousel .card-image-area {
+    flex: 0 0 160px;
+    height: 160px;
+}
+
+.jogos-destaque-carousel .card-title-slider {
+    width: 100%;
+    margin: 12px 0 5px;
+    font-size: 1rem;
+}
+
+.jogos-destaque-carousel .user-profession {
+    font-size: .88rem;
+    margin-bottom: 14px;
+}
+
+.jogos-destaque-carousel .message-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    padding: 9px 20px;
+    font-size: .9rem;
+}
+
+.jogos-destaque-carousel .swiper-pagination {
+    bottom: 5px !important;
+}
+
+.jogos-destaque-carousel .swiper-pagination-bullet {
+    background: var(--cor-elo);
+    opacity: .35;
+}
+
+.jogos-destaque-carousel .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.jogos-destaque-carousel .swiper-button-prev,
+.jogos-destaque-carousel .swiper-button-next {
+    top: calc(50% - 20px);
+    width: 38px;
+    height: 38px;
+    margin-top: 0;
+    color: var(--cor-marinho);
+    background: #fff;
+    border: 1px solid #d7e8ef;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(18, 54, 83, .10);
+}
+
+.jogos-destaque-carousel .swiper-button-prev { left: 0; }
+.jogos-destaque-carousel .swiper-button-next { right: 0; }
+
+.jogos-destaque-carousel .swiper-button-prev::after,
+.jogos-destaque-carousel .swiper-button-next::after {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.jogos-destaque-carousel .swiper-button-disabled {
+    opacity: .3;
+    cursor: default;
+}
+
+@media (max-width: 575.98px) {
+    .jogos-destaque-carousel { padding: 0 34px; }
+    .jogos-destaque-carousel .swiper-slide.card-item { padding: 12px; }
+    .jogos-destaque-carousel .card-image-area { flex-basis: 145px; height: 145px; }
+    .jogos-destaque-carousel .swiper-button-prev,
+    .jogos-destaque-carousel .swiper-button-next { width: 30px; height: 30px; }
+    .jogos-destaque-carousel .swiper-button-prev::after,
+    .jogos-destaque-carousel .swiper-button-next::after { font-size: 11px; }
+}
+
+
+/* Correções de consistência visual solicitadas */
+
+/* O gap em .row somava espaço às colunas do Bootstrap e empurrava
+   o bloco Acompanhe para uma segunda linha em larguras intermediárias. */
+.site-footer .footer-grid {
+    gap: 0 !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    --bs-gutter-x: 2.5rem;
+    --bs-gutter-y: 1.5rem;
+}
+
+.site-footer .footer-brand,
+.site-footer .footer-links,
+.site-footer .footer-contato {
+    min-width: 0;
+}
+
+.site-footer .footer-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-footer .footer-icons {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 0 0 auto;
+    width: max-content;
+    max-width: 100%;
+    gap: 10px;
+    padding: 7px 9px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .09);
+}
+
+.site-footer .footer-icons a {
+    display: grid;
+    place-items: center;
+    flex: 0 0 28px;
+    width: 28px;
+    height: 28px;
+    line-height: 1;
+}
+
+/* Fundo de contato menos claro, mantendo o contraste dos cartões. */
+body.contato-body {
+    background-color: #EEF1ED !important;
+}
+
+body.contato-body main {
+    background-color: transparent;
+}
+
+/* Cards do catálogo com altura uniforme: textos longos são limitados
+   sem aumentar apenas um cartão ou esticar a linha inteira. */
+.games-grid {
+    align-items: stretch;
+    grid-auto-rows: 370px;
+}
+
+.games-grid > .game-card-link {
+    display: flex;
+    align-self: stretch;
+    height: 100%;
+    min-width: 0;
+}
+
+.games-grid .game-card {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.games-grid .card-image-area {
+    flex: 0 0 210px;
+    height: 210px;
+    min-height: 210px;
+}
+
+.games-grid .card-content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+    padding: 16px 20px 18px;
+}
+
+.games-grid .game-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    min-height: 2.8em;
+    margin-bottom: 7px;
+    line-height: 1.4;
+}
+
+.games-grid .game-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    margin: 0;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+/* O banner acompanha a altura disponível sem usar 100vh. */
+.apresentacao.hero-inicio {
+    min-height: clamp(430px, 62vh, 600px);
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767.98px) {
+    .site-footer .footer-grid {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.5rem;
+    }
+
+    .site-footer .footer-contato {
+        align-items: flex-start;
+    }
+
+    .games-grid {
+        grid-auto-rows: 360px;
+    }
+
+    .games-grid .card-image-area {
+        flex-basis: 200px;
+        height: 200px;
+        min-height: 200px;
+    }
+
+    .apresentacao.hero-inicio {
+        min-height: 0;
+        padding: 44px 0 48px;
+    }
+}

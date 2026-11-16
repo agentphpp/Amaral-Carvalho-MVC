@@ -21,10 +21,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styleAdmin.css">
     <link rel="stylesheet" href="assets/css/styleExtra.css">
+    <link rel="stylesheet" href="assets/css/styleIdentidade.css">
 </head>
 <body class="adm">
 <div class="adm-topo">
-    <a class="adm-logo" href="<?= url("inicio", "inicio") ?>" title="Ver o site"><img src="assets/img/logo.png" alt="Logo ELO"></a>
+    <a class="adm-logo" href="<?= url("inicio", "inicio") ?>" title="Ver o site"><img src="assets/img/logo-amaral-carvalho.png" alt="Hospital Amaral Carvalho"></a>
     <div class="adm-usuario">
         <span><?= e($_SESSION["nome"]) ?></span>
         <small>Administrador</small>

@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #ECE9FE;
-    color: #22153C;
+    background: #FAF7EF;
+    color: #123653;
 }
 
 /* --- NAVBAR --- */
@@ -32,7 +32,7 @@ header {
 
 .nav-links li a {
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 600;
     font-size: 16px;
     transition: color 0.2s ease;
@@ -41,7 +41,7 @@ header {
 
 .nav-links li a:hover,
 .nav-links li a.active {
-    color: #5B21B6;
+    color: #1675B9;
 }
 
 .btn-entrar {
@@ -49,20 +49,20 @@ header {
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 700;
     font-size: 16px;
     transition: transform 0.2s ease;
 }
 
 .btn-entrar:hover {
-    color: #5B21B6;
+    color: #1675B9;
     transform: translateY(-1px);
 }
 
 /* --- HERO --- */
 .hero-jogo {
-    background: linear-gradient(135deg, #5314B2, #2E1065);
+    background: linear-gradient(135deg, #1675B9, #123653);
     border-radius: 24px;
     padding: 50px;
     display: flex;
@@ -108,7 +108,7 @@ header {
 .avaliacao {
     display: inline-block;
     margin-bottom: 15px;
-    color: #FACC15;
+    color: #D5A943;
     font-weight: 600;
 }
 
@@ -117,7 +117,7 @@ header {
     margin-top: 20px;
     border: none;
     background: white;
-    color: #5314B2;
+    color: #1675B9;
     font-weight: 700;
     padding: 12px 30px;
     border-radius: 12px;
@@ -128,7 +128,7 @@ header {
 .btn-jogar:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
-    color: #5314B2;
+    color: #1675B9;
 }
 
 /* --- INFO --- */
@@ -139,7 +139,7 @@ header {
 }
 
 .info-card {
-    background: #EBF0FF;
+    background: #EAF4F8;
     border-radius: 18px;
     padding: 25px;
     text-align: center;
@@ -147,7 +147,7 @@ header {
 }
 
 .info-card i {
-    color: #5314B2;
+    color: #1675B9;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -170,7 +170,7 @@ header {
 
 .categoria {
     background: rgba(83, 20, 178, .1);
-    color: #5314B2;
+    color: #1675B9;
     padding: 8px 16px;
     border-radius: 999px;
     font-weight: 600;
@@ -183,7 +183,7 @@ header {
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, .06);
-    color: #22153C;
+    color: #123653;
 }
 
 .avaliar textarea {
@@ -198,7 +198,7 @@ header {
 
 .btn-publicar {
     margin-top: 15px;
-    background: #5314B2;
+    background: #1675B9;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -209,12 +209,12 @@ header {
 /* --- FOOTER --- */
 footer {
     margin-top: 60px;
-    background: linear-gradient(180deg, rgba(56, 23, 107, .9), #2E1065);
-    color: #ECE9FE;
+    background: linear-gradient(180deg, rgba(56, 23, 107, .9), #123653);
+    color: #FAF7EF;
 }
 
 .footer-title {
-    color: #ECE9FE;
+    color: #FAF7EF;
     font-size: 12px;
 }
 

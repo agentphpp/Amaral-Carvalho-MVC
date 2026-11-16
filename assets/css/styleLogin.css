@@ -28,7 +28,7 @@ header {
 
 .nav-links li a {
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 600;
     font-size: 16px;
     transition: color 0.2s ease;
@@ -37,7 +37,7 @@ header {
 
 .nav-links li a:hover,
 .nav-links li a.active {
-    color: #5B21B6;
+    color: #1675B9;
 }
 
 .btn-entrar {
@@ -45,27 +45,27 @@ header {
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: #22153C;
+    color: #123653;
     font-weight: 700;
     font-size: 16px;
     transition: transform 0.2s ease;
 }
 
 .btn-entrar:hover {
-    color: #5B21B6;
+    color: #1675B9;
     transform: translateY(-1px);
 }
 
 /* --- FUNDO DEGRADÊ --- */
 .login-body {
-    background: linear-gradient(135deg, #2E1065 0%, #4C1D95 40%, #5B21B6 70%, #7C3AED 100%);
+    background: linear-gradient(135deg, #123653 0%, #123653 40%, #1675B9 70%, #1675B9 100%);
     min-height: 100vh;
     overflow-x: hidden;
 }
 
 /* --- CAIXA --- */
 .login-box {
-    background-color: #1A1230;
+    background-color: #123653;
     width: 100%;
     max-width: 520px;
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -79,7 +79,7 @@ header {
 }
 
 .highlight-purple-light {
-    color: #A855F7;
+    color: #B9DCEB;
 }
 
 .logo-container {
@@ -111,7 +111,7 @@ header {
 }
 
 .input-group-custom:focus-within {
-    border-color: #A855F7;
+    border-color: #B9DCEB;
 }
 
 .input-icon {
@@ -121,7 +121,7 @@ header {
 }
 
 .input-group-custom:focus-within .input-icon {
-    color: #A855F7;
+    color: #B9DCEB;
 }
 
 .form-input-line {

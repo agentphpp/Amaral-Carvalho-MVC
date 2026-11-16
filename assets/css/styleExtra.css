@@ -7,15 +7,15 @@ footer { margin-top: auto; }
 .erro-campo { color: #dc2626; font-size: .85rem; margin-top: 4px; text-align: left; }
 .form-container .erro-campo { margin-bottom: 10px; }
 .alert-login { max-width: 420px; margin: 0 auto 16px; }
-.avatar-mini { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; background: #ECE9FE; }
-.sem-resultado { text-align: center; padding: 48px 16px; color: #5b21b6; font-weight: 600; grid-column: 1 / -1; }
+.avatar-mini { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; background: #FAF7EF; }
+.sem-resultado { text-align: center; padding: 48px 16px; color: #1675B9; font-weight: 600; grid-column: 1 / -1; }
 .search-input-form { display: contents; }
 .tag { text-decoration: none; display: inline-block; }
 .tag-link { text-decoration: none; }
 .game-card-link { text-decoration: none; color: inherit; }
 .card-image-area img.capa { width: 100%; height: 100%; object-fit: cover; display: block; }
 .avaliacoes-lista { margin-top: 24px; display: flex; flex-direction: column; gap: 14px; }
-.avaliacao-item { background: #fff; border: 1px solid #e5defa; border-radius: 16px; padding: 16px 18px; }
+.avaliacao-item { background: #fff; border: 1px solid #D7E8EF; border-radius: 16px; padding: 16px 18px; }
 .avaliacao-item .topo { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .avaliacao-item .nota { color: #f59e0b; letter-spacing: 2px; }
 .avaliacao-item .data { margin-left: auto; color: #6b7280; font-size: .85rem; }
@@ -24,12 +24,12 @@ footer { margin-top: auto; }
 .estrelas-input input { display: none; }
 .estrelas-input label { cursor: pointer; color: #cbd5e1; transition: color .15s; }
 .estrelas-input input:checked ~ label, .estrelas-input label:hover, .estrelas-input label:hover ~ label { color: #f59e0b; }
-.aviso-login { background: #fff; border: 1px dashed #5b21b6; border-radius: 16px; padding: 18px; text-align: center; }
-.aviso-login a { color: #5b21b6; font-weight: 700; }
-.perfil-card { background: #fff; border-radius: 20px; padding: 28px; box-shadow: 0 12px 24px rgba(33,19,61,.08); }
-.perfil-avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; background: #ECE9FE; }
+.aviso-login { background: #fff; border: 1px dashed #1675B9; border-radius: 16px; padding: 18px; text-align: center; }
+.aviso-login a { color: #1675B9; font-weight: 700; }
+.perfil-card { background: #fff; border-radius: 20px; padding: 28px; box-shadow: 0 12px 24px rgba(18,54,83,.08); }
+.perfil-avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; background: #FAF7EF; }
 .form-roxo label { font-weight: 600; margin-bottom: 4px; }
 .form-roxo .form-control, .form-roxo .form-select { border-radius: 12px; padding: 10px 14px; }
-.btn-roxo { background: linear-gradient(135deg, #5B21B6, #7C3AED); color: #fff; border: 0; border-radius: 999px; padding: 10px 28px; font-weight: 700; }
-.btn-roxo:hover { color: #fff; box-shadow: 0 8px 18px rgba(91,33,182,.25); }
+.btn-roxo { background: linear-gradient(135deg, #1675B9, #1675B9); color: #fff; border: 0; border-radius: 999px; padding: 10px 28px; font-weight: 700; }
+.btn-roxo:hover { color: #fff; box-shadow: 0 8px 18px rgba(22,117,185,.25); }
 @media (max-width: 768px) { .menu-principal .nav-links { gap: 14px; } .nav-links li a { font-size: 14px; } }
