@@ -19,6 +19,7 @@ Perfis: **visitante**, **usuário** (avalia e comenta, só logado) e **administr
 ## 3. Ligar os serviços
 1. Abra o **XAMPP Control Panel**.
 2. Clique em **Start** em **Apache** e em **MySQL** (os dois devem ficar verdes).
+<img width="588" height="185" alt="image" src="https://github.com/user-attachments/assets/875d9243-6193-49b4-94b0-8ad119911c54" />
 
 ## 4. Criar o banco de dados
 Importe os dois arquivos **nesta ordem**:
