@@ -316,8 +316,8 @@ https://www.figma.com/proto/vyH992W0mgX97MzCJwBxla/amaral-Rascunho?node-id=4-791
 
 A aplicação está publicada em ambiente web e o código-fonte está disponível no GitHub.
 
-- Aplicação: https://amaralelo.netlify.app/
-- Repositório: https://github.com/jppiress/Amaral-Carvalho
+- Aplicação disponibilizada na web(versao antiga): https://amaralelo.netlify.app/
+- Repositório: https://github.com/agentphpp/Amaral-Carvalho-MVC/tree/main
 
 A tela inicial reúne o menu de navegação (Início, Jogo, Sobre, Contato e Entrar), a chamada "Aprender, brincar e se divertir", um texto de apresentação do portal de jogos educativos do Hospital Amaral Carvalho, os botões "Explorar Jogos" e "Saiba mais" e a imagem do robô ELO.
 
