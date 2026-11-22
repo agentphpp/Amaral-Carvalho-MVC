@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="README.md">Principal</a> | <b>Como executar</b>
+</p>
+
+---
+
 # Plataforma de jogos Amaral Carvalho (ELO) — MVC em PHP
 
 Portfólio de jogos educativos para o robô ELO do Hospital Amaral Carvalho.
