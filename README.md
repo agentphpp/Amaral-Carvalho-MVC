@@ -1,6 +1,6 @@
 <p align="center">
 
-&#x20; <b>Principal</b> | <a href="COMO\_EXECUTAR.md">Como executar</a>
+&#x20; <b>Principal</b> | <a href="COMO_EXECUTAR.md">Como executar</a>
 
 </p>
 <p align="left" style="font-size:28px;"><strong><em>Documentação PI do Amaral Carvalho</em></strong></p>
